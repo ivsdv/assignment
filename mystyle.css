@@ -10,8 +10,18 @@ p {
 table {
   border-collapse: collapse;
   border: 1px;
+  border-radius: 8px;
 }
 th,td {
   padding: 15px;
+  transition: background-color ease-out 250ms
 }
-
+td:hover {
+  background-color: #dbdbdb;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
