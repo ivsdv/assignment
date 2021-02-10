@@ -11,10 +11,11 @@ table {
   border-collapse: collapse;
   border: 1px;
   border-radius: 8px;
+  color: #dbdbdb;
 }
 th,td {
   padding: 15px;
-  transition: background-color ease-out 250ms
+  transition: background-color ease-out 250ms;
 }
 td:hover {
   background-color: #dbdbdb;
